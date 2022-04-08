@@ -4,10 +4,11 @@
  * main - main block
  * Description: prints the alphabet in lower case
  * Return: 0
- */ 
- int main(void)
- {
+ */
+int main(void)
+{
 	char k = 'a';
+	
 	while (k <= 'z')
 	{
 		putchar(k);
@@ -15,4 +16,4 @@
 	}
 	putchar('\n');
 	return (0);
- }
+}
