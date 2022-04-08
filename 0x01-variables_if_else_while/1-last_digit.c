@@ -3,8 +3,9 @@
 #include <stdio.h>
 /*including input output library */
 
-/** betty style doc for function main goes there
- * main - program will assign a random number to variable
+/**
+ * main - main block
+ * Description:- program will assign a random number to variable
  * Return: zero if successful and non zero otherwise
  */
 int main(void)
