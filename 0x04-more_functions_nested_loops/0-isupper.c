@@ -5,7 +5,7 @@
  * @c: character to be tested
  * Return: 1 fi c is uppercase and 0 otherwise
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if ((c >= 'A') && (c <= 'Z'))
 	{
