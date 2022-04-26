@@ -27,7 +27,7 @@ void print_buffer(char *b, int size)
 					printf(" ");
 			}
 			printf(" ");
-			for (i = j; l < j + 10; l++)
+			for (l = j; l < j + 10; l++)
 			{
 				if (l >= size)
 					break;
