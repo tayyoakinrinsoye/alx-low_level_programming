@@ -3,7 +3,7 @@
  * is_prime - function returns 1 if input is prime number
  * @n: number to check
  * @c: iterator
- * Retrun: 1 if n is prime, 0 otherwise
+ * Return: 1 if n is prime, 0 otherwise
  */
 int is_prime(unsigned int n, unsigned int c)
 {
