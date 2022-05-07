@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * str_concat - function concatenates 2 strings
  * @s1: the first string
@@ -21,6 +22,7 @@ char *str_concat(char *s1, char *s2)
 	else
 		s1 = "";
 
+	ptr = s2;
 	if (s2)
 		while (*ptr++)
 			size2++;
