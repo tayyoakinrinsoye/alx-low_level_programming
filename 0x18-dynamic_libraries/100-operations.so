@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -shared -o libpy.so add.o sub.o div.o mul.o mod.o
